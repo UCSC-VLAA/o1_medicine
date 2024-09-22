@@ -166,3 +166,17 @@ body {
   margin-top: 20px;  /* 调整文字与图片之间的间距 */
   text-align: center;
 }
+.image-caption-figure {
+  margin: 0;
+  text-align: left;
+}
+
+.image-caption-img {
+  width: 100%;
+  height: auto;
+}
+
+.image-caption-text {
+  margin-top: 10px;
+  text-align: left;
+}
