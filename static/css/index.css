@@ -166,14 +166,31 @@ body {
   margin-top: 20px;  /* 调整文字与图片之间的间距 */
   text-align: center;
 }
+/* Ensure the columns are the same height */
+.columns {
+  display: flex;
+  align-items: flex-end; /* Align items at the bottom */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push content to the bottom */
+  height: 100%;
+}
+
 .image-caption-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: 0;
-  text-align: left;
+  height: 100%;
 }
 
 .image-caption-img {
   width: 100%;
-  height: auto;
+  flex-grow: 1;
+  object-fit: contain;
 }
 
 .image-caption-text {
